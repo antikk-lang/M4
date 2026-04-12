@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    background:hotpink;
+}
+
+nav{
+    overflow-x: hidden;
+}
+
+div{
+    display: flex;
+    transition: 0.5s;
+    /* transform:translateX(-50%) ; */
+}
+
+img{
+    /* min-width: 50%; */
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+
+i{
+    font-size: 40px;
+    color: aliceblue;
+    padding: 0 10px;
+    cursor: pointer;
+}
