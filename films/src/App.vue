@@ -13,5 +13,7 @@ import { RouterView} from "vue-router";
 
 
 <style scoped>
-
+div{
+    margin: 40px;
+}
 </style>
